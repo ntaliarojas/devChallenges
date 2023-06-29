@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-inconsolata: "Inconsolata", monospace;
+}
+.wave {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+  z-index: -1;
+}
+.logo {
+  margin-top: 40px;
+  margin-left: 77px;
+  font-family: "Agdasima", sans-serif;
+  font-size: 20px;
+}
+main {
+  margin-top: -100px;
+  width: 100vw;
+  height: auto;
+}
+.main-contec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 200px;
+}
+.bloque1 img {
+  width: 475px;
+  height: 448;
+}
+.bloque2 {
+  display: flex;
+  flex-direction: column;
+}
+.bloque2 h2 {
+  width: 580px;
+  font-size: 64px;
+  font-family: var(--font-inconsolata);
+  font-weight: 700;
+  color: var(--text-color);
+  letter-spacing: -2.24px;
+}
+.bloque2 p {
+  width: 381px;
+  font-size: 30px;
+  text-align: justify;
+  margin: 0 auto;
+  font-family: "Agdasima", sans-serif;
+  margin-top: 20px;
+}
+.bloque2 button {
+  width: 216px;
+  height: 68px;
+  margin-top: 30px;
+  background-color: #33266d;
+  border-radius: 25px;
+  margin-left: 155px;
+}
+button:hover {
+  background-color: #503ea0;
+}
+.bloque2 button a {
+  color: white;
+  text-decoration: none;
+  font-family: "Agdasima", sans-serif;
+  font-size: 25px;
+}
+footer {
+  margin-top: 108px;
+}
+
+.footer-c {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--font-footer);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 312px) {
+  .wave {
+    position: absolute;
+    height: 100%;
+    margin-left: -30px;
+    top: 50px;
+    bottom: 0;
+    z-index: -1;
+  }
+  .logo {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .main-contec {
+    flex-direction: column;
+    margin-top: 64px;
+  }
+
+  .bloque1 img {
+    width: 387px;
+    height: 338px;
+    margin-top: 35%;
+    margin-left: 30%;
+  }
+
+  .bloque2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+  }
+
+  .bloque2 h2 {
+    width: 300px;
+    font-size: 48px;
+    text-align: center;
+    margin-left: 35%;
+    letter-spacing: -1.68px;
+    margin-top: 30px;
+  }
+  .bloque2 p {
+    font-size: 18px;
+    width: 328px;
+    margin-top: 30px;
+    margin-left: 35%;
+    letter-spacing: -0.63px;
+  }
+  .bloque2 button {
+    margin-top: 66px;
+  }
+
+  footer {
+    margin-top: 74px;
+    margin-left: 55%;
+  }
+
+  .footer-c {
+    font-size: 14px;
+    bottom: 0;
+  }
+}
